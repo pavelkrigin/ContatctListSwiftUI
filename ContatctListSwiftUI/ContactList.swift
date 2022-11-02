@@ -13,7 +13,7 @@ struct ContactList: View {
     var body: some View {
         NavigationStack {
             List(contacts) { contact in
-                NavigationLink(destination: ContactDetails(contact: contact)) {
+                NavigationLink(destination: Contact(contact: contact)) {
                     Text(contact.fullname)
                 }
             }
@@ -25,6 +25,6 @@ struct ContactList: View {
 
 struct ContactList_Previews: PreviewProvider {
     static var previews: some View {
-        ContactList(contacts: <#[Person]#>)
+        ContactList(contacts: Person.getPersonList())
     }
 }

@@ -12,11 +12,11 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            Contacts(contacts: contacts)
+            ContactList(contacts: contacts)
                 .tabItem {
                     Label("Contacts", systemImage: "person.3")
                 }
-            Numbers(contacts: contacts)
+            Telegramms(contacts: contacts)
                 .tabItem {
                     Label("Numbers", systemImage: "phone")
                 }

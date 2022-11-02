@@ -20,8 +20,7 @@ struct Person: Identifiable {
 
 extension Person {
     static func getPersonList() -> [Person] {
-        
-        
+                
         let names = DataManager().names.shuffled()
         let surnames = DataManager().surnames.shuffled()
         let emails = DataManager().emails.shuffled()

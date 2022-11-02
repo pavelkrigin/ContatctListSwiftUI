@@ -13,8 +13,9 @@
 		CA4C7A302912F05C00D0303F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4C7A2F2912F05C00D0303F /* Preview Assets.xcassets */; };
 		CA4C7A372912F43600D0303F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4C7A362912F43600D0303F /* DataManager.swift */; };
 		CA4C7A3D2912FF8B00D0303F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4C7A3C2912FF8B00D0303F /* Person.swift */; };
-		CA4C7A3F29130E9100D0303F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4C7A3E29130E9100D0303F /* HomeScreen.swift */; };
 		CA4C7A412913119E00D0303F /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4C7A402913119E00D0303F /* ContactList.swift */; };
+		CA4C7A432913139D00D0303F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4C7A422913139D00D0303F /* Contact.swift */; };
+		CA4C7A452913152D00D0303F /* Telegramms.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4C7A442913152D00D0303F /* Telegramms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +26,9 @@
 		CA4C7A2F2912F05C00D0303F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA4C7A362912F43600D0303F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		CA4C7A3C2912FF8B00D0303F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		CA4C7A3E29130E9100D0303F /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		CA4C7A402913119E00D0303F /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		CA4C7A422913139D00D0303F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		CA4C7A442913152D00D0303F /* Telegramms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegramms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,8 @@
 				CA4C7A362912F43600D0303F /* DataManager.swift */,
 				CA4C7A3C2912FF8B00D0303F /* Person.swift */,
 				CA4C7A402913119E00D0303F /* ContactList.swift */,
-				CA4C7A3E29130E9100D0303F /* HomeScreen.swift */,
+				CA4C7A422913139D00D0303F /* Contact.swift */,
+				CA4C7A442913152D00D0303F /* Telegramms.swift */,
 				CA4C7A2C2912F05C00D0303F /* Assets.xcassets */,
 				CA4C7A2E2912F05C00D0303F /* Preview Content */,
 			);
@@ -151,10 +154,11 @@
 			files = (
 				CA4C7A412913119E00D0303F /* ContactList.swift in Sources */,
 				CA4C7A2B2912F05A00D0303F /* ContentView.swift in Sources */,
-				CA4C7A3F29130E9100D0303F /* HomeScreen.swift in Sources */,
 				CA4C7A372912F43600D0303F /* DataManager.swift in Sources */,
 				CA4C7A3D2912FF8B00D0303F /* Person.swift in Sources */,
 				CA4C7A292912F05A00D0303F /* ContatctListSwiftUIApp.swift in Sources */,
+				CA4C7A432913139D00D0303F /* Contact.swift in Sources */,
+				CA4C7A452913152D00D0303F /* Telegramms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
